@@ -22,7 +22,7 @@ def main():
         "192.168.1.19": "block"
     }
 
-      # Simulate network traffic
+      # Simulate network traffic 
     for _ in range(12):
      ip_address = generate_random_ip()
      action = check_firewall_rules(ip_address, firewall_rules)
