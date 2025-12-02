@@ -4,7 +4,7 @@ from scapy.all import Ether, IP, TCP, sendp
 
 TARGET_IP = "192.168.x.x"  # Replace with the target IP address
 INTERFACE = "eth0"  # Replace with your network interface
-NUM_PACKETS = 100
+NUM_PACKETS = 1000 # Increase the loads to help the target device catch the send
 DURATION = 5
 
 def send_packets(target_ip, interface, num_packets, duration):
