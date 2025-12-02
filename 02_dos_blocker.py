@@ -4,7 +4,7 @@ import time
 from collections import defaultdict
 from scapy.all import sniff, IP
 
-THRESHOLD = 40
+THRESHOLD = 40 # I consider to lower to the threshhold to help the target VM to track the testing packets.
 print(f"THRESHOLD: {THRESHOLD}") 
     
 
